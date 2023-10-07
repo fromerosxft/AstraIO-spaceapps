@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
+import './planet.css'
 
 import App from './App.jsx'
 import NavBar from './pages/NavBar.jsx'
