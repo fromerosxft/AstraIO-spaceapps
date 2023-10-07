@@ -1,9 +1,44 @@
-import React from 'react'
+import React from "react";
 
 function Home() {
   return (
-    <div>Home</div>
-  )
+    <>
+      <div className="carousel w-full">
+        <div id="slide1" className="carousel-item relative w-full">
+          <img
+            src="https://www.ssec.wisc.edu/news/wp-content/uploads/sites/19/2021/12/Venus_web_banner.jpg"
+            className="w-full"
+          />
+          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+          </div>
+        </div>
+        <div id="slide2" className="carousel-item relative w-full">
+          <img
+            src="https://www.ssec.wisc.edu/news/wp-content/uploads/sites/19/2021/12/Venus_web_banner.jpg"
+            className="w-full"
+          />
+          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+          </div>
+        </div>
+        <div id="slide3" className="carousel-item relative w-full">
+          <img
+            src="https://www.ssec.wisc.edu/news/wp-content/uploads/sites/19/2021/12/Venus_web_banner.jpg"
+            className="w-full"
+          />
+          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+          </div>
+        </div>
+        <div id="slide4" className="carousel-item relative w-full">
+          <img
+            src="https://www.ssec.wisc.edu/news/wp-content/uploads/sites/19/2021/12/Venus_web_banner.jpg"
+            className="w-full"
+          />
+          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+          </div>
+        </div>
+      </div>
+    </>
+  );
 }
 
-export default Home
+export default Home;
