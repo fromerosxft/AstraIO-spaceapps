@@ -6,7 +6,7 @@ function Sections (){
         <section id="idealiza" class="bg-gray-900 bg-[url(/src/imgs/planeta8.jpg)] text-white">
             <div class="max-w-screen-xl px-4 py-8 sm:py-20 sm:px-6 lg:py-10 lg:px-8">
                 <div class="max-w-xl">
-                <h2 class="text-3xl font-bold sm:text-4xl">Vida exoplanetaria</h2>
+                <h2 class="text-3xl font-bold sm:text-4xl">VIDA EXOPLANETARIA</h2>
 
                 <p class="mt-4 text-gray-300">
                 Para que un planeta sea habitable, debe tener agua líquida en su superficie, una atmósfera estable, el tamaño adecuado y estar en la "zona habitable" de su estrella, además de un núcleo metálico generador de campo magnético, condiciones esenciales para la vida.
@@ -14,11 +14,9 @@ function Sections (){
                 </div>
 
                 <div class="max-w-xl py-4">
-                <h2 class="text-3xl font-bold sm:text-2xl">Los grandes aspirantes</h2>
-
-                <p class="mt-4 text-gray-300">
-                 Dos, son los exoplanetas cuentan con esta gran característica: K2-B18 y Kepler-22b, que podrían ser potencialmente habitables debido a sus características particulares que se asemejan a la tierra.
-                </p>
+                <h2 class="text-3xl font-bold sm:text-2xl">Nuestro próximo hogar</h2>
+                <h2 class="text-3xl font-bold sm:text-2xl">UP-IO5</h2>
+                
                 </div>
 
 
