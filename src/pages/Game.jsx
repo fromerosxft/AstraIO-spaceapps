@@ -4,8 +4,8 @@ import Planet from "../components/Planet.jsx";
 
 function Game() {
   return (
-    <main className="w-full bg-white flex justify-center">
-      <div className="container w-2/3 p-4 m-4 rounded-xl h-96 bg-black flex items-center bg-[url('https://i.pinimg.com/originals/bd/63/3d/bd633d443ea586bd9dd6ae56c690870d.gif')] justify-center relative">
+    <main className="w-full bg-transparent flex justify-center">
+      <div className="container w-2/3 p-4 m-4 rounded-xl h-96 bg-black border-2 border-white flex items-center bg-[url('https://i.pinimg.com/originals/bd/63/3d/bd633d443ea586bd9dd6ae56c690870d.gif')] justify-center relative">
         {/* <div className="absolute animate-spin-plt left-4 top-32">
           <Planet
             size="20"
