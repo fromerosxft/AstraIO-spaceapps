@@ -1,3 +1,8 @@
+import imgdesert from "./src/imgs/img1-desert.png"
+import imgluna from "./src/imgs/img-luna.png"
+import imgmountain from "./src/imgs/img1-mountainDesert.png"
+import redplan from "./src/imgs/img-redPlanet.png"
+
 import React from "react";
 
 function Consider() {
@@ -21,7 +26,7 @@ function Consider() {
             </div>
 
         <img alt="exo1"
-            src="./src/imgs/img1-desert.png"
+            src={imgdesert}
             class="h-full w-full object-cover sm:h-[calc(100%_-_2rem)] sm:self-end sm:rounded-ss-[30px] md:h-[calc(100%_-_4rem)] md:rounded-ss-[60px]" />
         </section>
 
@@ -41,7 +46,7 @@ function Consider() {
             </div>
 
         <img alt="exo2"
-            src="./src/imgs/img-luna.png"
+            src={imgluna}
             class="h-full w-full object-cover sm:h-[calc(100%_-_2rem)] sm:self-end sm:rounded-ss-[30px] md:h-[calc(100%_-_4rem)] md:rounded-ss-[60px]" />
         </section>
 
@@ -61,7 +66,7 @@ function Consider() {
             </div>
 
         <img alt="exo3"
-            src="./src/imgs/img1-mountainDesert.png"
+            src={imgmountain}
             class="h-full w-full object-cover sm:h-[calc(100%_-_2rem)] sm:self-end sm:rounded-ss-[30px] md:h-[calc(100%_-_4rem)] md:rounded-ss-[60px]" />
         </section>
 
@@ -81,7 +86,7 @@ function Consider() {
             </div>
 
         <img alt="exo4"
-            src="./src/imgs/img-redPlanet.png"
+            src={redplan}
             class="h-full w-full object-cover sm:h-[calc(100%_-_2rem)] sm:self-end sm:rounded-ss-[30px] md:h-[calc(100%_-_4rem)] md:rounded-ss-[60px]" />
         </section>
     </>
