@@ -21,7 +21,7 @@ export default {
         },
       },
       animation: {
-        'moving': 'moving 5s infinite linear',
+        'moving': 'moving 15s infinite linear',
       }
     },
   },
