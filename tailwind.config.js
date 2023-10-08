@@ -20,22 +20,31 @@ module.exports = {
         },
         'spin-plt': {
           '0%': {
-            'left': '4rem'
+            'left': '20%',
+            'top': '40%'
           },
-          '33%': {
-            'bottom': '0.75rem'
+          '25%': {
+            'left': '40%',
+            'top': '80%',
+            'z-index': '2'
           },
-          '66%': {
-            'right': '4rem'
+          '50%': {
+            'left': '80%',
+            'top': '40%'
+          },
+          '75%': {
+            'left': '40%',
+            'top': '0%'
           },
           '100%': {
-            'top': '0.75rem'
+            'left': '20%',
+            'top': '40%'
           },
         }
       },
       animation: {
         'moving': 'moving 15s infinite linear',
-        'spin-plt': 'spin-plt 30s infinite linear',
+        'spin-plt': 'spin-plt 25s infinite linear',
       }
     },
   },
