@@ -47,7 +47,7 @@ module.exports = {
       },
       animation: {
         'moving': 'moving 15s infinite linear',
-        'spin-plt': 'spin-plt 5s infinite linear',
+        'spin-plt': 'spin-plt 25s infinite linear',
       }
     },
   },
