@@ -3,7 +3,7 @@ import Router from "router";
 function Sections (){
     return(
         <>
-        <section id="idealiza" class="bg-gray-900 bg-[url(/src/imgs/planeta8.jpg)] text-white">
+        <section id="idealiza" class="bg-gray-900 bg-[url(https://i.postimg.cc/4ytnrq7v/planeta8.jpg)] text-white">
             <div class="max-w-screen-xl px-4 py-8 sm:py-20 sm:px-6 lg:py-10 lg:px-8">
                 <div class="max-w-xl">
                 <h2 class="text-3xl font-bold sm:text-4xl">VIDA EXOPLANETARIA</h2>

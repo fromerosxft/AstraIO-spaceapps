@@ -21,7 +21,7 @@ function Consider() {
             </div>
 
         <img alt="exo1"
-            src="./src/imgs/img1-desert.png"
+            src="https://i.postimg.cc/pTj2T8WR/img1-desert.png"
             class="h-full w-full object-cover sm:h-[calc(100%_-_2rem)] sm:self-end sm:rounded-ss-[30px] md:h-[calc(100%_-_4rem)] md:rounded-ss-[60px]" />
         </section>
 
@@ -41,7 +41,7 @@ function Consider() {
             </div>
 
         <img alt="exo2"
-            src="./src/imgs/img-luna.png"
+            src="https://i.postimg.cc/vZDwT9hk/img-luna.png"
             class="h-full w-full object-cover sm:h-[calc(100%_-_2rem)] sm:self-end sm:rounded-ss-[30px] md:h-[calc(100%_-_4rem)] md:rounded-ss-[60px]" />
         </section>
 
@@ -61,7 +61,7 @@ function Consider() {
             </div>
 
         <img alt="exo3"
-            src="./src/imgs/img1-mountainDesert.png"
+            src="https://i.postimg.cc/CxMLNzNs/img1-mountain-Desert.png"
             class="h-full w-full object-cover sm:h-[calc(100%_-_2rem)] sm:self-end sm:rounded-ss-[30px] md:h-[calc(100%_-_4rem)] md:rounded-ss-[60px]" />
         </section>
 
@@ -81,7 +81,7 @@ function Consider() {
             </div>
 
         <img alt="exo4"
-            src="./src/imgs/img-redPlanet.png"
+            src="https://i.postimg.cc/mZQLWQpS/img-red-Planet.png"
             class="h-full w-full object-cover sm:h-[calc(100%_-_2rem)] sm:self-end sm:rounded-ss-[30px] md:h-[calc(100%_-_4rem)] md:rounded-ss-[60px]" />
         </section>
     </>
