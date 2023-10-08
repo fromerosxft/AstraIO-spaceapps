@@ -1,5 +1,4 @@
-/** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
@@ -8,20 +7,35 @@ export default {
         'gradient-radial': 'radial-gradient(circle at 2rem 2rem, var(--tw-gradient-stops))',
       },
       boxShadow: {
-        'plt': 'inset -2rem -2rem 2rem .5rem rgba(0, 0, 0, .6);',
+        'plt': 'inset -2rem -2rem 2rem 0.5rem rgba(0, 0, 0, 0.6)',
       },
       keyframes: {
         'moving': {
           '0%': {
-            'background-position': 'right 0rem top 0;'
+            'background-position': 'right 0rem top 0'
           },
           '100%': {
-            'background-position': 'right 20rem top 0;'
-          }
+            'background-position': 'right 20rem top 0'
+          },
         },
+        'spin-plt': {
+          '0%': {
+            'left': '4rem'
+          },
+          '33%': {
+            'bottom': '0.75rem'
+          },
+          '66%': {
+            'right': '4rem'
+          },
+          '100%': {
+            'top': '0.75rem'
+          },
+        }
       },
       animation: {
         'moving': 'moving 15s infinite linear',
+        'spin-plt': 'spin-plt 30s infinite linear',
       }
     },
   },
