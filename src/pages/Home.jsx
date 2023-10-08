@@ -1,5 +1,9 @@
 import React from "react";
 
+import GetStart from "./GetStart";
+import Consider from "./Consider";
+import Sections from "./Sections";
+
 
 function Home() {
   return (
