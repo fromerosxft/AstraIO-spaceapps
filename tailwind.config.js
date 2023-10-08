@@ -8,6 +8,7 @@ module.exports = {
       },
       boxShadow: {
         'plt': 'inset -2rem -2rem 2rem 0.5rem rgba(0, 0, 0, 0.6)',
+        'sun': '0 0 2rem 0.5rem rgba(255, 0, 0, 0.3)',
       },
       keyframes: {
         'moving': {
@@ -20,8 +21,9 @@ module.exports = {
         },
         'spin-plt': {
           '0%': {
-            'left': '20%',
-            'top': '40%'
+            'left': '0%',
+            'top': '40%',
+            'z-index': '2'
           },
           '25%': {
             'left': '40%',
@@ -30,21 +32,22 @@ module.exports = {
           },
           '50%': {
             'left': '80%',
-            'top': '40%'
+            'top': '40%',
+            'z-index': '0'
           },
           '75%': {
             'left': '40%',
             'top': '0%'
           },
           '100%': {
-            'left': '20%',
+            'left': '0%',
             'top': '40%'
           },
         }
       },
       animation: {
         'moving': 'moving 15s infinite linear',
-        'spin-plt': 'spin-plt 25s infinite linear',
+        'spin-plt': 'spin-plt 5s infinite linear',
       }
     },
   },

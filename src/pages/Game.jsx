@@ -30,7 +30,7 @@ function Game() {
         </div>
 
        <div >
-          <div className={`h-60 w-60 bg-transparent relative z-2`}>
+          <div className={`h-60 w-60 bg-transparent relative z-2 shadow-sun shadow-red-500 rounded-full`}>
             <div
               className={`circle h-full w-full animate-moving absolute z-3 rounded-full bg-repeat-x bg-cover bg-[right_0rem_top_0rem]  bg-[url('https://i.postimg.cc/JhRzf3sH/red-sun.jpg')]`}
             ></div>
