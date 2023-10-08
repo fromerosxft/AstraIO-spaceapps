@@ -9,6 +9,19 @@ export default {
       },
       boxShadow: {
         'plt': 'inset -2rem -2rem 2rem .5rem rgba(0, 0, 0, .6);',
+      },
+      keyframes: {
+        'moving': {
+          '0%': {
+            'background-position': 'right 0rem top 0;'
+          },
+          '100%': {
+            'background-position': 'right 20rem top 0;'
+          }
+        },
+      },
+      animation: {
+        'moving': 'moving 5s infinite linear',
       }
     },
   },
