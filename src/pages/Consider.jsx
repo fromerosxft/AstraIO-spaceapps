@@ -1,3 +1,8 @@
+import imgdesert from "./src/imgs/img1-desert.png"
+import imgluna from "./src/imgs/img-luna.png"
+import imgmountain from "./src/imgs/img1-mountainDesert.png"
+import redplan from "./src/imgs/img-redPlanet.png"
+
 import React from "react";
 
 function Consider() {
